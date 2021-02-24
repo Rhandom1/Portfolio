@@ -1,0 +1,46 @@
+body {
+ background-image: url("../Assets/Images/bg-code.png");
+}
+
+.image {
+  padding-right: 10px;
+}
+
+.row {
+ padding: 30px;
+}
+
+.index-container {
+ padding: 30px;
+}
+
+.about-row {
+  background-color: white;
+}
+  
+h1 {
+  border-bottom: 3px solid lightgrey;
+  font-size: 80px;
+  color: goldenrod;
+  padding-left: 10px;
+}
+
+.aboutcolor {
+  background-color: darkslategray;
+}
+
+#floated {
+  float: left;
+  max-width: 200px;
+  margin: 5px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: darkslategray;
+}
+
+footer a {
+  color: goldenrod;
+}
