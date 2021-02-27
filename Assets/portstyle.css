@@ -6,13 +6,13 @@ h1 {
 border-bottom: 3px solid lightgrey;
 font-size: 80px;
 color: goldenrod;
-background-color: darkslategray;
+background-image: linear-gradient(to right, darkblue, lightblue);
 margin: 20px;
 }
 
 .port-container {
     margin: 100px;
-    background-color: white;
+    background-color: bisque;
     padding: 20px;
 }
 
@@ -30,3 +30,18 @@ footer {
 footer a {
     color: goldenrod;
   }
+
+#section-top {
+    text-decoration: underline;
+    background-color: rgb(30, 43, 66);
+    text-align: center;
+    color: bisque;
+}
+
+#js-section {
+    text-decoration: underline;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: rgb(30, 43, 66);
+    color: bisque;
+}
