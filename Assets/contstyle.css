@@ -11,7 +11,7 @@ h1 {
 border-bottom: 3px solid lightgrey;
 font-size: 80px;
 color: goldenrod;
-background-color: darkslategray;
+background-image: linear-gradient(to right, darkblue, lightblue);
 }
 
 .contact-container {
