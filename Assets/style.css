@@ -6,7 +6,7 @@
 }
 
 body {
- background-color: var(--darkcolor);
+  background-image: url("../Assets/Images/bg-code.png");
 }
 
 .image {
