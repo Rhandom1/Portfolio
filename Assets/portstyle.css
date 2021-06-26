@@ -6,8 +6,10 @@
   }
 
 body {
-      background-image: url("../Assets/Images/bg-code.png");
+      background-color: var(--contrastcolor)
   }
+
+  nav a:active {}
 
 h1 {
 border-bottom: 3px solid lightgrey;
@@ -19,7 +21,7 @@ margin: 20px;
 
 .port-container {
     margin: 100px;
-    background-color: var(--contrastcolor);
+    background-color: var(--darkcolor);
     padding: 20px;
 }
 
@@ -52,7 +54,7 @@ footer {
     text-decoration: underline;
     background-color: rgb(30, 43, 66);
     text-align: center;
-    color: bisque;
+    color: white;
 }
 
 #js-section {
@@ -60,7 +62,7 @@ footer {
     padding-bottom: 5px;
     text-align: center;
     background-color: rgb(30, 43, 66);
-    color: bisque;
+    color: white;
 }
 
 @media screen and (max-width:768px) {
