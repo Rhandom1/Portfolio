@@ -1,3 +1,10 @@
+:root {
+  --darkcolor: #2C439B;
+  --contrastcolor: #F89A45;
+  --lightcolor: white;
+  --bordercolor: 3px solid black;
+}
+
 body {
     background-image: url("../Assets/Images/bg-code.png");
 }
@@ -10,12 +17,13 @@ border-bottom: 3px solid lightgrey;
 h1 {
 border-bottom: 3px solid lightgrey;
 font-size: 80px;
-color: goldenrod;
-background-image: linear-gradient(to right, darkblue, lightblue);
+color: var(--contrastcolor);
+/* background-image: linear-gradient(to right, darkblue, lightblue); */
 }
 
 .contact-container {
-background-color: white;
+background-color: var(--darkcolor);
+color: var(--contrastcolor);
 margin: 100px;
 padding: 20px;
 }
