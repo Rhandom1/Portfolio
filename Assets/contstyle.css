@@ -6,7 +6,28 @@
 }
 
 body {
-    background-image: url("../Assets/Images/bg-code.png");
+    background-color: var(--contrastcolor);
+}
+
+nav a:link {
+  color: var(--darkcolor);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: var(--contrastcolor);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: yellow;
+  text-decoration: none;
+}
+
+.container {
+  border: var(--bordercolor)
 }
 
 .header {
