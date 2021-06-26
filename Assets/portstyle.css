@@ -1,3 +1,10 @@
+:root {
+    --darkcolor: #2C439B;
+    --contrastcolor: #F89A45;
+    --lightcolor: white;
+    --bordercolor: 3px solid black;
+  }
+
 body {
       background-image: url("../Assets/Images/bg-code.png");
   }
@@ -5,14 +12,14 @@ body {
 h1 {
 border-bottom: 3px solid lightgrey;
 font-size: 80px;
-color: goldenrod;
-background-image: linear-gradient(to right, darkblue, lightblue);
+color: var(--contrastcolor);
+background-color: var(--darkcolor);
 margin: 20px;
 }
 
 .port-container {
     margin: 100px;
-    background-color: bisque;
+    background-color: var(--contrastcolor);
     padding: 20px;
 }
 
@@ -22,11 +29,22 @@ margin: 20px;
 }
 
 footer {
-    text-align:center;
+    text-align: center;
     color: white;
-}
-
-footer a {
+  }
+  
+  footer p {
+    float: left;
+    font-size: x-large;
+  }
+  
+  footer li {
+    display: inline;
+    width: auto;
+    padding-left: 50px;
+  }
+  
+  footer a {
     color: goldenrod;
   }
 
@@ -43,4 +61,20 @@ footer a {
     text-align: center;
     background-color: rgb(30, 43, 66);
     color: bisque;
+}
+
+@media screen and (max-width:768px) {
+    .port-container {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:411px) {
+   .port-container {
+       margin: 0 auto;
+   }
+    h1 {
+        display: none;
+    }
+
 }

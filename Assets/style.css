@@ -1,5 +1,12 @@
+:root {
+  --darkcolor: #2C439B;
+  --contrastcolor: #F89A45;
+  --lightcolor: white;
+  --bordercolor: 3px solid black;
+}
+
 body {
- background-image: url("../Assets/Images/bg-code.png");
+ background-color: var(--darkcolor);
 }
 
 .image {
@@ -38,6 +45,18 @@ h1 {
 footer {
   text-align: center;
   color: white;
+}
+
+footer p {
+  float: left;
+  font-size: x-large;
+  border-bottom: 3px solid white;
+}
+
+footer li {
+  display: inline;
+  width: auto;
+  padding-left: 50px;
 }
 
 footer a {

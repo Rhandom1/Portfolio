@@ -25,10 +25,38 @@ margin: 30px;
 }
 
 footer {
-  text-align:center;
+  text-align: center;
   color: white;
 }
 
+footer p {
+  float: left;
+  font-size: x-large;
+}
+
+footer li {
+  display: inline;
+  margin: 0;
+  
+  padding-left: 50px;
+}
+
 footer a {
-    color: goldenrod;
+  color: goldenrod;
+}
+
+  @media screen and (max-width: 768px) {
+    .contact-container {
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width:411px) {
+    .contact-container {
+      margin: 0 auto;
+    }
+
+   h1 {
+     font-size: large;
+   }
   }
