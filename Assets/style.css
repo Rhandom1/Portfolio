@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("../Assets/Images/bg-code.png");
+  background-color: var(--darkcolor);
 }
 
 nav a:link {
@@ -45,7 +45,7 @@ nav a:hover {
 h1 {
   border-bottom: 3px solid lightgrey;
   font-size: 80px;
-  color: goldenrod;
+  color: var(--contrastcolor);
   padding-left: 10px;
 }
 
